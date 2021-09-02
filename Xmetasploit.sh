@@ -76,7 +76,7 @@ find "$PREFIX"/lib/ruby/gems -type f -iname \*.so -print0 | xargs -0 -r termux-e
 echo "Creating database"
 
 mkdir -p $msfpath/metasploit-framework/config && cd $msfpath/metasploit-framework/config
-curl -LO https://raw.githubusercontent.com/evildevill/tmetasploit/main/database.yml
+curl -LO https://raw.githubusercontent.com/Rexinazor/Xmetasploit/main/database.yml
 
 mkdir -p $PREFIX/var/lib/postgresql
 pg_ctl -D "$PREFIX"/var/lib/postgresql stop > /dev/null 2>&1 || true
@@ -94,7 +94,7 @@ fi
 
 rm $msfpath/$msfvar.tar.gz
 
-cd ${PREFIX}/bin && curl -LO  https://raw.githubusercontent.com/evildevill/evildevillpatch/main/files/msfconsole && chmod +x msfconsole
+cd ${PREFIX}/bin && curl -LO https://raw.githubusercontent.com/Rexinazor/Xmetasploit/main/msfconsole && chmod +x msfconsole
 
 ln -sf $(which msfconsole) $PREFIX/bin/msfvenom
 
