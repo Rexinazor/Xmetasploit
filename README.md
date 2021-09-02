@@ -1,7 +1,7 @@
 
 ## ABOUT TOOL :
 
-This tool is used to install metasploit framework in termux
+A tool for installing metasploit framework in termux
 
 
 * Updated maintainence !
