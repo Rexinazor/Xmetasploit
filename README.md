@@ -12,7 +12,7 @@ A tool for installing metasploit framework in termux
 
 * `cd`
 * `wget https://raw.githubusercontent.com/Rexinazor/Xmetasploit/master/Xmetasploit.sh`
-* `bash tmetasploit.sh`
+* `bash Xmetasploit.sh`
 ```
 [+]--Now you need internet connection to continue further process...
 
